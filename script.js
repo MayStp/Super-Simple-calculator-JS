@@ -10,7 +10,6 @@ function clearCalculator() {
     operator = '';
   }
 
-
 function setInputValue(value) {
   if (operator === '') {
     firstNumber += value;
@@ -52,7 +51,6 @@ function calculate() {
   firstNumber = result
   secondNumber = '';
   operator = '';
-
 
 }
 
